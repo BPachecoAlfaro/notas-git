@@ -82,6 +82,32 @@ git checkout -- [archivo o directorio]
 > [!NOTE]
 > "--" Do not interpret any more arguments as options.
 
+### Comando para agregar al stage y realizar commit
+```bash
+git commit -am ["Mensaje del commit"]
+```
+> [!NOTE]
+> "--" Solo funciona si el archivo ya se encuentra en seguimiento.
+
+### Comando visualizar para los registros de los commits realizados
+```bash
+git log
+```
+
+### Comando agregar al stage archivos que hacen match
+```bash
+git add *.[tipo de archivo]
+```
+
+### Comando agregar al stage archivos que hacen match dentro de un directorio especifico
+```bash
+git add [directorio]*.[tipo de archivo]
+```
+
+### Git no hace seguimientos de directorio vacios por lo que hay que especificar que se necesita hacer el seguimiento creando un archivo .gitkeep
+```bash
+[directorio]/.gitkeep
+```
 
 ## 🔑 Diferencia entre Git y GitHub
 
