@@ -30,12 +30,10 @@ git --version
 ```bash
 git help
 ```
-
 ### Comando de ayuda de comando
 ```bash
 git help [comando]
 ```
-
 ### Comando de configuracion de user
 ```bash
 git config --global user.name "[UserName]"
@@ -45,10 +43,14 @@ git config --global user.email "[UserEmail]"
 ```bash
 git config --global init.defaultBranch <name>
 ```
-
 ### Comando sobre commits, rama donde estas trabajando
 ```bash
 git status
+```
+
+### Comando para cambiar nombre de la rama
+```bash
+git branch -m [nombre de la rama] [nuevo nombre]
 ```
 
 ## Comandos principales
