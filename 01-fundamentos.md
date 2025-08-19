@@ -51,7 +51,6 @@ git config --global init.defaultBranch <name>
 git status
 ```
 
-
 ## Comandos principales
 
 ### Comando de inicialización de repositorio
@@ -59,11 +58,27 @@ git status
 git init
 ```
 
-### Comando para iniciar el seguimiento
+### Comando para iniciar el seguimiento de archivo o directorio
 ```bash
-git add [archivo o directorio] 
+git add [archivo o directorio]
 ```
 
+### Comando para remover el seguimiento de archivo o directorio
+```bash
+git reset [archivo o directorio]
+```
+
+### Comando para agregar al stage el archivo o directorio
+```bash
+git commit [-m o --message] ["Mensaje del commit"]
+```
+
+### Comando para recuperar estado del commit anterior
+```bash
+git checkout -- [archivo o directorio]
+```
+> [!NOTE]
+> "--" Do not interpret any more arguments as options.
 
 
 ## 🔑 Diferencia entre Git y GitHub
