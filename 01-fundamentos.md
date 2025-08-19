@@ -1,0 +1,91 @@
+# 📌 Git: Fundamentos
+
+##  ¿Qué es Git?
+
+- **Git** es un **sistema de control de versiones distribuido**.
+- Permite llevar el historial de cambios de un proyecto (código, documentos, etc.).
+- Fue creado por **Linus Torvalds** en 2005 para el desarrollo del kernel de Linux.
+
+👉 **Idea clave**: Git es como una _máquina del tiempo_ para tus archivos.
+
+---
+
+## 🧩 Conceptos básicos
+
+- **Repositorio (repo):** carpeta con historial de versiones.
+- **Commit:** un “punto de guardado” con los cambios registrados.
+- **Branch (rama):** línea de desarrollo independiente.
+- **Staging area (índice):** espacio temporal donde preparas los cambios antes de confirmarlos.
+- **HEAD:** puntero al commit actual en el que estás trabajando.
+
+---
+
+## Comandos básicos
+
+### Ver versión de Git
+```bash
+git --version
+```
+### Comando de ayuda
+```bash
+git help
+```
+
+### Comando de ayuda de comando
+```bash
+git help [comando]
+```
+
+### Comando de configuracion de user
+```bash
+git config --global user.name "[UserName]"
+git config --global user.email "[UserEmail]"
+```
+### Comando de configuracion de rama principal
+```bash
+git config --global init.defaultBranch <name>
+```
+
+### Comando sobre commits, rama donde estas trabajando
+```bash
+git status
+```
+
+
+## Comandos principales
+
+### Comando de inicialización de repositorio
+```bash
+git init
+```
+
+### Comando para iniciar el seguimiento
+```bash
+git add [archivo o directorio] 
+```
+
+
+
+## 🔑 Diferencia entre Git y GitHub
+
+- **Git**: herramienta de control de versiones (instalada en tu PC).
+- **GitHub/GitLab/Bitbucket**: plataformas en la nube para alojar repositorios y colaborar.
+
+| Git (local)                  | GitHub/GitLab (remoto)                |
+| ---------------------------- | ------------------------------------- |
+| Maneja tu historial en tu PC | Guarda y comparte repositorios online |
+| No necesita internet         | Necesita internet                     |
+| Herramienta                  | Servicio basado en Git                |
+
+---
+
+## 📂 Flujo general de trabajo con Git
+
+1. Modificar archivos en el **working directory**.
+2. Añadir cambios al **staging area** (`git add`).
+3. Confirmar cambios con un **commit** (`git commit`).
+4. (Opcional) Subirlos a un **repositorio remoto** (`git push`).
+
+```txt
+[Working Directory] → git add → [Staging Area] → git commit → [Local Repo] → git push → [Remote Repo]
+```
