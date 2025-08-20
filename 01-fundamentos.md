@@ -104,6 +104,11 @@ git add *.[tipo de archivo]
 git add [directorio]*.[tipo de archivo]
 ```
 
+### Comando agregar al stage un directorio y subcarpetas y/o archivos
+```bash
+git add [directorio]/
+```
+
 ### Git no hace seguimientos de directorio vacios por lo que hay que especificar que se necesita hacer el seguimiento creando un archivo .gitkeep
 ```bash
 [directorio]/.gitkeep
