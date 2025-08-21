@@ -8,7 +8,19 @@
 
 👉 **Idea clave**: Git es como una _máquina del tiempo_ para tus archivos.
 
----
+
+## 🔑 Diferencia entre Git y GitHub
+
+- **Git**: herramienta de control de versiones (instalada en tu PC).
+- **GitHub/GitLab/Bitbucket**: plataformas en la nube para alojar repositorios y colaborar.
+
+| Git (local)                  | GitHub/GitLab (remoto)                |
+| ---------------------------- | ------------------------------------- |
+| Maneja tu historial en tu PC | Guarda y comparte repositorios online |
+| No necesita internet         | Necesita internet                     |
+| Herramienta                  | Servicio basado en Git                |
+
+
 
 ## 🧩 Conceptos básicos
 
@@ -18,7 +30,20 @@
 - **Staging area (índice):** espacio temporal donde preparas los cambios antes de confirmarlos.
 - **HEAD:** puntero al commit actual en el que estás trabajando.
 
----
+
+
+## 📂 Flujo general de trabajo con Git
+
+1. Modificar archivos en el **working directory**.
+2. Añadir cambios al **staging area** (`git add`).
+3. Confirmar cambios con un **commit** (`git commit`).
+4. (Opcional) Subirlos a un **repositorio remoto** (`git push`).
+
+```txt
+[Working Directory] → git add → [Staging Area] → git commit → [Local Repo] → git push → [Remote Repo]
+```
+
+
 
 ## Comandos básicos
 
@@ -112,28 +137,4 @@ git add [directorio]/
 ### Git no hace seguimientos de directorio vacios por lo que hay que especificar que se necesita hacer el seguimiento creando un archivo .gitkeep
 ```bash
 [directorio]/.gitkeep
-```
-
-## 🔑 Diferencia entre Git y GitHub
-
-- **Git**: herramienta de control de versiones (instalada en tu PC).
-- **GitHub/GitLab/Bitbucket**: plataformas en la nube para alojar repositorios y colaborar.
-
-| Git (local)                  | GitHub/GitLab (remoto)                |
-| ---------------------------- | ------------------------------------- |
-| Maneja tu historial en tu PC | Guarda y comparte repositorios online |
-| No necesita internet         | Necesita internet                     |
-| Herramienta                  | Servicio basado en Git                |
-
----
-
-## 📂 Flujo general de trabajo con Git
-
-1. Modificar archivos en el **working directory**.
-2. Añadir cambios al **staging area** (`git add`).
-3. Confirmar cambios con un **commit** (`git commit`).
-4. (Opcional) Subirlos a un **repositorio remoto** (`git push`).
-
-```txt
-[Working Directory] → git add → [Staging Area] → git commit → [Local Repo] → git push → [Remote Repo]
 ```
