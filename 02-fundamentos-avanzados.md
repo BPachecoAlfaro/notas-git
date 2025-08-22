@@ -60,3 +60,15 @@ git reset --hard [HEAD^ o hash]
 ```bash
 git reflog
 ```
+
+## Comandos manejo de archivos
+
+### comando para mover archivo especificado al path especificado, tambien se puede cambiar el nombre
+```bash
+git mv [file] [path o nuevo nombre]
+```
+
+### comando para remover archivo especificado
+```bash
+git rm [path/file]
+```
