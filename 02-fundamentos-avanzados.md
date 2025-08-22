@@ -5,6 +5,7 @@
 - **HEAD:** apunta al último commit.
 - **^:** último commit antes de la palabra o hash recién dado.
 - **^n:** con n igual a la cantidad de commit anteriores.
+- **.gitignore:** archivo en el directorio donde esta el .git, el cual se especifican los archivos y directorios que no se quiera dar seguimiento
 
 ##  modificaciones en los archivos
 
