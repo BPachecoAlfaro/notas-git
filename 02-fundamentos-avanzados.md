@@ -22,9 +22,14 @@ git diff [archivo <opcional>] --staged
 
 ## Comandos commit
 
-### actualizar mensaje del ultimo commit realizado
+### actualizar mensaje del último commit realizado
 ```bash
 git commit --amend -m "[Mensaje actualizado]"
+```
+
+### modo de edición del último commit realizado
+```bash
+git commit --amend
 ```
 
 ## Comandos reset
@@ -37,4 +42,21 @@ git reset --soft [HEAD^ o hash]
 ### resetea al commit anterior sin eliminar los cambios ^n con n igual al numero de commits anteriores
 ```bash
 git reset --soft [HEAD^{n} o hash]
+```
+
+### resetea el commit anterior y saca los cambios del stage
+```bash
+git reset --mixed [HEAD^ o hash]
+```
+
+### resetea el commit anterior y elimina todos los cambios, dejando todo a como estaba el commit especificado
+```bash
+git reset --hard [HEAD^ o hash]
+```
+
+## Comandos reflog
+
+### log de la referencia de todo en orden cronologico
+```bash
+git reflog
 ```

@@ -112,7 +112,7 @@ git checkout -- [archivo o directorio]
 git commit -am ["Mensaje del commit"]
 ```
 > [!NOTE]
-> "--" Solo funciona si el archivo ya se encuentra en seguimiento.
+> Solo funciona si el archivo ya se encuentra en seguimiento.
 
 ### Comando visualizar para los registros de los commits realizados
 ```bash
