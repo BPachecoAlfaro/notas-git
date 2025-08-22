@@ -33,3 +33,8 @@ git commit --amend -m "[Mensaje actualizado]"
 ```bash
 git reset --soft [HEAD^ o hash]
 ```
+
+### resetea al commit anterior sin eliminar los cambios ^n con n igual al numero de commits anteriores
+```bash
+git reset --soft [HEAD^{n} o hash]
+```
