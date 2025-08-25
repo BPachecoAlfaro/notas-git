@@ -44,7 +44,7 @@ git stash clear
 git stash save ["mensaje"]
 ```
 
-### Crea una nueva rama desde donde se hizo el stash y aplica esos cambios allí.
+### Crea una nueva rama desde donde se hizo el stash y aplica esos cambios allí. Específico si agregas el id.
 ```bash
-git stash branch [nombre-rama]
+git stash branch [nombre-rama] [optional <id>]
 ```
