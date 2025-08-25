@@ -48,3 +48,20 @@ git stash save ["mensaje"]
 ```bash
 git stash branch [nombre-rama] [optional <id>]
 ```
+
+## Comandos rebase
+
+### Mueve tus commits actuales para que partan desde una rama.
+```bash
+git rebase [nombre-rama]
+```
+
+### Abre un editor para reordenar, combinar (squash), editar o eliminar commits.
+```bash
+git rebase -i <base>
+```
+
+### Reescribe los últimos n commits.
+```bash
+git rebase -i HEAD~[n]
+```
