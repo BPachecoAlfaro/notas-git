@@ -44,3 +44,8 @@ git pull [origin por estandar - nombre repositorio <opcional>] [master - rama qu
 ```
 > [!NOTE]
 > -u: al haber realizado el git push -u, establece por defecto el nombre del repositorio y la rama.
+
+### Hacer una actualización de referencia y no trae archivos como el git pull.(se utiliza para actualizar el repositorio local con los cambios en el repositorio remoto sin traer nuevos archivos, pero no se busca hacer un merged o entrar en rebase)
+```bash
+git fetch
+```
