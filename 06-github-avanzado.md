@@ -9,6 +9,13 @@
 - **Feature Branch:** Una feature branch es una rama creada desde la principal (generalmente main o develop) para trabajar en una nueva funcionalidad de forma aislada. Una vez completada, se fusiona mediante PR.
 👉 Comandos útiles:
 
+- **Clone:** Clonar copia un repositorio remoto (el original o tu fork) a tu máquina, incluyendo su historial, para que trabajes localmente.
+
 ##  Comandos github avanzado
 
-## Comandos
+## Comandos clone
+
+### Clonar repositorio remoto a tu computadora.
+```bash
+git clone [url-rep]
+```
