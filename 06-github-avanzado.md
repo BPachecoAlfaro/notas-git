@@ -32,8 +32,15 @@ git remote add upstream [url-original]
 
 ### Conectar con el repo original.
 ```bash
-git fetch upstream  
+git remote add upstream <url-original>
 ```
+
+### Obtener cambios del original.
+```bash
+git fetch upstream
+```
+
+### Comandos branch
 
 ### Obtener cambios del original.
 ```bash
