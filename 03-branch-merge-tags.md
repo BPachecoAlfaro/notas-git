@@ -65,7 +65,7 @@ git tag
 
 ### Crear un tag simple 
 ```bash
-git tag [nombre del tag]
+git tag [nombre del tag] [hash commit o HEAD<optional>]
 ```
 
 ### Crear un tag anotado
