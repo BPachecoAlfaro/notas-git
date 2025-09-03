@@ -42,7 +42,7 @@ git fetch upstream
 
 ### Comandos branch
 
-### Obtener cambios del original.
+### Subir rama al repositorio remoto
 ```bash
-git remote add upstream <url-original>
+git push --set-upstream [origin o nombre del origen remoto] [Nombre rama a subir]
 ```
