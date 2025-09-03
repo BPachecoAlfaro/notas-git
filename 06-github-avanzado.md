@@ -9,9 +9,10 @@
 - **Flujos de trabajo (Workflows):** Los flujos de trabajo en Git definen cómo un equipo organiza el uso de ramas, fusiones y PRs. Ejemplos comunes: Git Flow, GitHub Flow y Trunk-Based Development. Su objetivo es estandarizar cómo se integran los cambios al proyecto.
 
 - **Feature Branch:** Una feature branch es una rama creada desde la principal (generalmente main o develop) para trabajar en una nueva funcionalidad de forma aislada. Una vez completada, se fusiona mediante PR.
-👉 Comandos útiles:
 
 - **Clone:** Clonar copia un repositorio remoto (el original o tu fork) a tu máquina, incluyendo su historial, para que trabajes localmente.
+
+- **Workflows:** Los flujos de trabajo son la forma en que un equipo organiza cómo se crean, revisan y fusionan los cambios en el código. Estos definen reglas y pasos comunes, como trabajar en ramas para nuevas funciones o correcciones, crear pull requests para revisión, realizar pruebas automáticas y finalmente integrar los cambios en la rama principal, asegurando un proceso colaborativo ordenado y consistente.
 
 ##  Comandos github avanzado
 
@@ -38,4 +39,3 @@ git fetch upstream
 ```bash
 git remote add upstream <url-original>
 ```
-git merge upstream/main    # Integrar cambios
