@@ -63,3 +63,8 @@ git fetch -all
 ```bash
 git branch -all
 ```
+
+### comando para revisar las ramas en el remoto y actualiza referencias.
+```bash
+git remote prune [origin]
+```
