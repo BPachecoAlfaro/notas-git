@@ -46,3 +46,20 @@ git fetch upstream
 ```bash
 git push --set-upstream [origin o nombre del origen remoto] [Nombre rama a subir]
 ```
+
+## Comandos manejo de ramas e información de origin remoto
+
+### comando para traer los cambios o ramas creadas en origin/remoto.
+```bash
+git pull --all
+```
+
+### comando para traer las referencias sin traer cambios o ramas creadas en origin/remoto.
+```bash
+git fetch -all
+```
+
+### comando para obtener todas las ramas disponibles, incluyendo las ramas del orgin/remoto.
+```bash
+git branch -all
+```
