@@ -14,6 +14,14 @@
 
 - **Workflows:** Los flujos de trabajo son la forma en que un equipo organiza cómo se crean, revisan y fusionan los cambios en el código. Estos definen reglas y pasos comunes, como trabajar en ramas para nuevas funciones o correcciones, crear pull requests para revisión, realizar pruebas automáticas y finalmente integrar los cambios en la rama principal, asegurando un proceso colaborativo ordenado y consistente.
 
+- **Issues:** Los issues en GitHub son la principal herramienta para dar seguimiento a tareas, reportar errores, proponer nuevas funcionalidades o discutir ideas relacionadas con un proyecto. Funcionan como tickets que pueden asignarse, comentarse y priorizarse, lo que permite a los equipos organizar mejor el flujo de trabajo y centralizar la comunicación sobre aspectos específicos del desarrollo.
+
+- **Labels:** Las labels son etiquetas de colores que se pueden aplicar a issues o pull requests para clasificarlos y facilitar su búsqueda y organización. Por ejemplo, se pueden usar para indicar la prioridad (alta, media, baja), el tipo de tarea (bug, feature, documentación), o el estado de un trabajo. Esto ayuda a mantener una visión clara y organizada del progreso del proyecto.
+
+- **Milestones:** Los milestones permiten agrupar issues y pull requests bajo un mismo objetivo o entrega importante, como una versión del software. Funcionan como metas intermedias que ayudan a visualizar el progreso hacia un lanzamiento o hito específico. Cada milestone muestra el porcentaje de avance en función de las tareas completadas, lo que facilita medir el estado general del proyecto.
+
+- **Colaboradores:** Los colaboradores en un repositorio de GitHub son las personas que tienen permisos de escritura y administración dentro de ese proyecto. Pueden contribuir directamente con código, gestionar issues, revisar y aprobar pull requests, entre otras tareas. Incluir colaboradores permite trabajar en equipo de manera más eficiente y aprovechar el control de versiones y la gestión de roles que ofrece GitHub.
+
 ##  Comandos github avanzado
 
 ## Comandos clone
