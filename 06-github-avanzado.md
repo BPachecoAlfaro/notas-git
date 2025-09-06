@@ -22,6 +22,14 @@
 
 - **Colaboradores:** Los colaboradores en un repositorio de GitHub son las personas que tienen permisos de escritura y administración dentro de ese proyecto. Pueden contribuir directamente con código, gestionar issues, revisar y aprobar pull requests, entre otras tareas. Incluir colaboradores permite trabajar en equipo de manera más eficiente y aprovechar el control de versiones y la gestión de roles que ofrece GitHub.
 
+- **Wiki:** Es una sección dentro de un repositorio de GitHub que permite documentar el proyecto de manera colaborativa, similar a una mini-enciclopedia, donde se pueden agregar guías, manuales de uso, procesos de instalación y cualquier información que ayude a los colaboradores o usuarios.
+
+- **Proyectos:** Son tableros de gestión dentro de GitHub que permiten organizar tareas, issues y pull requests con metodologías como Kanban o Scrum, ayudando a planificar, priorizar y hacer seguimiento al progreso de un proyecto de desarrollo.
+
+- **GitHub Pages:** Es una funcionalidad que permite desplegar páginas web estáticas directamente desde un repositorio, ideal para documentaciones, portafolios, blogs o demos de proyectos, utilizando ramas específicas o carpetas como fuente de publicación.
+
+- **Insights:** Proporciona estadísticas y métricas sobre el repositorio, incluyendo la actividad de commits, contribuciones, tráfico, colaboradores y dependencias, lo que permite evaluar el estado, la salud y la evolución del proyecto.
+
 ##  Comandos github avanzado
 
 ## Comandos clone
