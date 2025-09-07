@@ -30,6 +30,12 @@
 
 - **Insights:** Proporciona estadísticas y métricas sobre el repositorio, incluyendo la actividad de commits, contribuciones, tráfico, colaboradores y dependencias, lo que permite evaluar el estado, la salud y la evolución del proyecto.
 
+- **Organización:** En GitHub, una organización es una cuenta compartida que permite a varias personas colaborar en múltiples repositorios de manera centralizada. Funciona como un espacio de trabajo grupal donde empresas, equipos de desarrollo o comunidades pueden gestionar proyectos de software. Una organización proporciona mayor control sobre la administración de repositorios, acceso de usuarios, equipos y permisos, lo que la hace ideal para coordinar el trabajo en grupo de forma más estructurada que una cuenta personal.
+
+- **Teams (equipos):** Los equipos dentro de una organización en GitHub son grupos de miembros que se crean para organizar y gestionar el acceso a repositorios de forma más eficiente. Un equipo puede representar un departamento, un grupo de trabajo o un rol específico dentro de la organización (por ejemplo, backend, frontend o QA). Los equipos permiten asignar permisos colectivos a varios repositorios a la vez y también ofrecen un canal de comunicación interna mediante menciones con @nombre-del-equipo.
+
+- **Privilegios a los equipos de organización:** Los equipos en una organización pueden recibir diferentes niveles de permisos sobre los repositorios según su rol y necesidades. Estos privilegios incluyen acceso de solo lectura, escritura, mantenimiento, administración o incluso control total (ownership). Al otorgar privilegios a un equipo, todos sus miembros heredan automáticamente esos permisos, lo que simplifica la gestión y asegura consistencia en el acceso. Esto permite delegar responsabilidades de forma segura sin necesidad de configurar permisos individuales para cada miembro.
+
 ##  Comandos github avanzado
 
 ## Comandos clone
